@@ -34,7 +34,7 @@ public class GuessingGame {
                         + " guesses!  My number was " + comNumber);
                 break;  
             }
-            if (guessCount == 6) {
+            if (guessCount == comNumber) {
                 System.out.println("You didn't get the number in 6 guesses.");
                 System.out.println("You lose.  My number was " + comNumber);
                 break; 
